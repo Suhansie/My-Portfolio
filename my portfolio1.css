@@ -4,5 +4,20 @@
     box-sizing: border-box;
 }
 body {
-    background-color: #ff0000
+    background:url(back1.jpg);
+    background-size:cover;      /* makes it cover entire screen */
+    background-position: center; /* centers the image */
+    background-repeat: no-repeat;
 }
+.class1{
+    padding: 50px;
+    font-size: x-large;
+    background-color: #030025;
+    color: white;
+}
+.class2{
+    padding: 50px;
+    background-color: #a2a0bcad;
+    image-orientation: flip;
+}
+
