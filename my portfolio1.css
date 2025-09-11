@@ -26,7 +26,7 @@ img{
 
 .cl2 {
     padding: 50px;
-    background-color: #a2a0bcad;
+    background-color: #dfdeeac5;
     image-orientation: flip;
 }
 
@@ -35,6 +35,7 @@ img{
 }
 .class1 .class3{
     display: flex;
+    padding: 0px 5px;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
@@ -42,8 +43,16 @@ img{
 .class1 .class3 .class4{
     display: flex;
     flex-direction: column;
-    width: 30%;
+    width: 20%;
 }
 .class5{
-    width: 30%;
+    padding: 20px 30px;
+    width: 25%;
+    overflow-wrap: break-word;  
+    white-space: normal;
+}
+.class5 p{
+    text-align: justify;
+    text-indent: 40px;
+    font-size:large;
 }
